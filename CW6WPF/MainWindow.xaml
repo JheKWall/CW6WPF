@@ -1,0 +1,20 @@
+﻿<Window x:Class="CW6WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CW6WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="AssetsButton" Content="See Assets" HorizontalAlignment="Left" Margin="30,31,0,0" VerticalAlignment="Top" Click="AssetsButton_Click"/>
+        <TextBlock x:Name="EmployeeIDDisplay" HorizontalAlignment="Left" Margin="108,33,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="AssetIDDisplay" HorizontalAlignment="Left" Margin="174,33,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="AssetDescriptionDisplay" HorizontalAlignment="Left" Margin="248,33,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="EmployeesButton" Content="See Employees" HorizontalAlignment="Left" Margin="391,31,0,0" VerticalAlignment="Top" Click="EmployeesButton_Click"/>
+        <TextBlock x:Name="EmployeeIDDisplay_2" HorizontalAlignment="Left" Margin="485,33,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="NameDisplay" HorizontalAlignment="Left" Margin="545,33,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+
+
+    </Grid>
+</Window>
