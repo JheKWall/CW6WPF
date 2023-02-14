@@ -1,1 +1,1 @@
-# CW6WPF
+# CW6: Databases in WPF Applications
